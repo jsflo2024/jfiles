@@ -29,7 +29,7 @@ a:visited {
   border: #c6d0f5 1px solid;
   border-radius: 1px;
   margin: auto;
-  width: 95%;
+  width: 98%;
 }
 
 .topnav {
@@ -61,15 +61,15 @@ a:visited {
   flex-direction: row;
   gap: 10px;
   margin: auto;
-  width: 95%;
+  width: 98%;
   padding-top: 10px;
 }
 
 /* Main Index Content */
 
 .indexcontent {
+  padding-left: 10px;
   width: 90%;
-  text-align: center;
   border: 1px solid;
   border-color: #c6d0f5;
   border-radius: 1px;
@@ -95,5 +95,5 @@ a:visited {
 }
 
 .sidenav a:hover {
-  color: #f1f1f1;
+  color: #e5c890;
 }
