@@ -9,15 +9,15 @@ h3,
 h4,
 h5,
 h6 {
-  color: #68c8be
+  color: #e5c890
 }
 
 a:link {
-  color: #85c1dc;
+  color: #81c8be;
 }
 
 a:visited {
-  color: #ca9ee6;
+  color: #81c8be;
 }
 
 /* Header Nav */
@@ -43,16 +43,17 @@ a:visited {
 
   p {
     margin: 10px;
-    color: #85c1dc;
+    color: #81c8be;
   }
 }
 
 .topnav a:visited {
-  color: #85c1dc;
+  color: #81c8be;
 }
 
 .topnav a {
-  font-size: 20px;
+  font-size: 25px;
+  text-decoration: none;
 }
 
 /* Main Wrapper */
@@ -69,7 +70,6 @@ a:visited {
 
 .indexcontent {
   padding-left: 10px;
-  width: 90%;
   border: 1px solid;
   border-color: #c6d0f5;
   border-radius: 1px;
@@ -82,18 +82,31 @@ a:visited {
 /* sidebar */
 .sidenav {
   padding: 10px;
-  width: 10%;
-  border: #c6d0f5 1px solid;
   background-color: #394056;
 }
 
 .sidenav a {
   text-decoration: none;
   font-size: 20px;
-  color: #8dbeda;
+  color: #81c8be;
   display: block;
 }
 
 .sidenav a:hover {
   color: #e5c890;
+}
+
+.fieldnav {
+  width: 10%;
+  border: #c6d0f5 1px solid;
+}
+
+.fieldusefulprograms {
+  width: 90%;
+  border: #c6d0f5 1px solid;
+}
+
+fieldset legend {
+  color: #e5c890;
+  font-weight: bold;
 }
