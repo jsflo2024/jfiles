@@ -1,35 +1,11 @@
-body {
-  background-color: #394056;
-  color: #c6d0f5;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  color: #e5c890
-}
-
-a:link {
-  color: #81c8be;
-}
-
-a:visited {
-  color: #81c8be;
-}
-
 /* Header Nav */
 
 .topnavwrapper {
-  display: flex;
   flex-direction: row;
-  background-color: #393f55;
   border: #c6d0f5 1px solid;
   border-radius: 1px;
   margin: auto;
-  width: 98%;
+  width: 100%;
 }
 
 .topnav {
@@ -57,32 +33,33 @@ a:visited {
 }
 
 /* Main Wrapper */
+
 .mainwrapper {
   display: flex;
   flex-direction: row;
   gap: 10px;
   margin: auto;
-  width: 98%;
+  width: 100%;
   padding-top: 10px;
 }
 
 /* Main Index Content */
 
-.indexcontent {
+.fieldindex {
   padding-left: 10px;
   border: 1px solid;
   border-color: #c6d0f5;
   border-radius: 1px;
+  width: 90%;
 }
 
-.indexcontent ul {
-  list-style-type: none;
-}
 
-/* sidebar */
+/* Sidebar */
+
 .sidenav {
   padding: 10px;
-  background-color: #394056;
+  width: 10%;
+  border: 1px solid;
 }
 
 .sidenav a {
@@ -108,5 +85,4 @@ a:visited {
 
 fieldset legend {
   color: #e5c890;
-  font-weight: bold;
 }
