@@ -1,0 +1,16 @@
+.fieldprograms {
+    padding-left: 10px;
+    border: 1px solid;
+    border-color: #abb2bf;
+    border-radius: 1px;
+    width: 90%;
+}
+
+.mainwrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin: auto;
+    width: 100%;
+    padding-top: 10px;
+}
