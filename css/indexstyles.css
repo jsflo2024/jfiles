@@ -5,6 +5,7 @@
   flex-direction: row;
   gap: 10px;
   width: 100%;
+  margin: auto;
   padding-top: 10px;
 }
 
